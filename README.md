@@ -1,14 +1,14 @@
 # Introduction
-This repository is a [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template](template repository)
+This repository is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-When you want to create a new TRE repository, you should do so by using this template.  Hint: click the green button above that says "Use this template"
+When you want to create a new TRE repository, you should do so by using this template.  Hint: click the green button above that says "Use this template".
 
 # Why
-We want to ensure that all repositories in TRE follow defined conventions and standards. See [The TRE Engineering Handbook](https://github.com/nationalarchives/da-tre-engineering-handbook)
+We want to ensure that all repositories in TRE follow defined conventions and standards. See [The TRE Engineering Handbook](https://github.com/nationalarchives/da-tre-engineering-handbook).
 
-Specifically this repository mandates a minimal set of [pre-commit hooks](https://pre-commit.com/)
+Specifically this mandates that all repositories implement at least these minimal set of [pre-commit](https://pre-commit.com/) hooks.
 
-It is therefor required that you use pre-commit and the [https://github.com/Yelp/detect-secrets](detect secrets) tool/hook.
+It is therefore required that you use [pre-commit](https://pre-commit.com/) and the [detect secrets](https://github.com/Yelp/detect-secrets) tool/hook.
 
 They can generally be installed with pip. e.g.
 
@@ -18,8 +18,8 @@ pip install detect-secrets
 ```
 
 # Contents
-```README.md```
+```README.md``` - Change this as appropriate.
 
-```.pre-commit-config.yaml``` - Sensible default to get you started.  Add the hooks you need accordingly.
+```.pre-commit-config.yaml``` - Sensible defaults to get you started.  Add the hooks you need accordingly.
 
 ``` .secrets.baseline``` - A baseline file for detect-secrets that assumes there should be no secrets in this repository.
