@@ -20,8 +20,19 @@ pip install detect-secrets
 # Contents
 ```README.md``` - Change this as appropriate.
 
-```CHANGELOG.md``` - A [Keep a change log](https://keepachangelog.com/en/1.0.0/) changelog
+```CHANGELOG.md``` - A [Keep a change log](https://keepachangelog.com/en/1.0.0/) changelog.
+
+```LICENSE``` - A MIT License dated 2023 Crown Copyright.
 
 ```.pre-commit-config.yaml``` - Sensible defaults to get you started.  Add the hooks you need accordingly.
 
 ``` .secrets.baseline``` - A baseline file for detect-secrets that assumes there should be no secrets in this repository.
+
+# Permissions
+In ```Settings->Collaborators and teams```:
+
+Set ```Write``` access to ```transformation-engine``` team
+
+Set ```Admin``` access to ```transformation-engine-admins``` team
+
+Remove ```Admin``` access from yourself
