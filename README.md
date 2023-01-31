@@ -17,6 +17,10 @@ pip install pre-commit
 pip install detect-secrets
 ```
 
+You will need to initialise pre-commit after cloning the newly created repository by running:
+
+```pre-commit install```
+
 # Contents
 ```README.md``` - Change this as appropriate.
 
