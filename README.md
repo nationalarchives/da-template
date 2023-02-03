@@ -40,3 +40,7 @@ Set ```Write``` access to ```transformation-engine``` team
 Set ```Admin``` access to ```transformation-engine-admins``` team
 
 Remove ```Admin``` access from yourself
+
+# Protect Main Branch
+Creating a repo from the template will not set branch protection. 
+Follow: https://github.com/nationalarchives/da-tre-engineering-handbook#branch-protection
