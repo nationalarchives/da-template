@@ -35,5 +35,5 @@ You will need to initialise pre-commit after cloning the newly created repositor
 ```.github/workflows/pre_commit.yml``` - A workflow which runs pre-commit on a pull request to main, as a check.
 
 # Protect Main Branch
-Creating a repo from the template will not set branch protection. 
+Creating a repo from the template will not set branch protection.
 See [The Engineering Handbook](https://national-archives.atlassian.net/wiki/spaces/DAAE/pages/47775767/Engineering+Handbook) for guidance.
